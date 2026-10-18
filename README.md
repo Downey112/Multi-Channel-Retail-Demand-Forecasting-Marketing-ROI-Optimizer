@@ -16,6 +16,35 @@ study asks three questions with a PostgreSQL database and three statistical modu
 > the project can check whether each method recovers it, which it does below. A real chain's data would
 > not allow that check.
 
+## What a marketing manager should do
+
+These are the decisions the analysis supports for the simulated chain. They show what the study would hand
+a manager. They are not claims about any real retailer.
+
+1. **Lead with Flash Sale, then check its margin.** It adds about RM 9.8k of revenue per store-week over no
+   promotion, against RM 6.3k for Bundle Discount and RM 4.4k for Loyalty Cashback, and it is the top promotion
+   in every region. The lift is largest in Central (about RM 12.7k). The study measures revenue lift only, not
+   discount cost, so a real chain would compare the promotions on margin before making Flash Sale the default.
+2. **Shift some media budget from In-App Push and Out-of-Home toward Social Video and Search.** At current spend
+   the *marginal* return of the first pair, from the last ringgit spent, is about RM 1.7–1.9 of revenue per RM 1. That is
+   below the RM 2.86 break-even at a 35% margin, while Social Video and Search return about RM 3.8–4.2. This does
+   not mean the first pair loses money overall, and their marginal return rises as spend falls, so trim them
+   rather than cut them. The channel weights are uncertain (In-App Push: 0.05–1.34), so move budget in steps and
+   measure each one.
+3. **Keep the total weekly budget near today's average of RM 37.5k.** The long-run profit-optimal budget is
+   RM 41.3k, but its 95% interval runs from RM 12.7k to RM 73.6k, and the upper part of that range lies beyond
+   the spend the data covers (point 4). Raising the nine non-festive weeks of the next quarter to RM 41.3k would
+   add RM 158k of revenue for RM 61k of extra media. At a 35% margin that is about −RM 5k of profit after media
+   cost. The optimum assumes spending continues indefinitely, and a 13-week plan pays to build adstock but loses
+   the carry-over that arrives after the quarter ends.
+4. **Don't trust the curve above about RM 50k a week.** Past spend rarely went that high, so the data can't
+   show where returns flatten. A real chain would run a controlled spend test before budgeting above that level.
+5. **Plan the next quarter (CNY and Hari Raya) on about RM 16.8M of revenue** (95% interval RM 16.60M–16.92M).
+   Treat that interval as too narrow: on the holdout, the weekly intervals covered 10 of 13 weeks rather than
+   the expected 12–13.
+
+The sections below give the evidence for each point.
+
 ## Data provenance
 
 | Item | Source | Notes |
@@ -205,7 +234,7 @@ levels, with those regressors and ARMA errors.
   from 2,000 simulated paths, not from summing the weekly bounds. Like the weekly intervals, it ignores
   parameter uncertainty.
 - **Raising normal weeks to the profit-optimal budget:** under the same shocks, this adds RM 158k of revenue for
-  RM 61k of extra media. At a 35% margin that is **−RM 5k of gross profit**, essentially zero.
+  RM 61k of extra media. At a 35% margin that is **−RM 5k of profit after media cost**, essentially zero.
 - **Why the optimum doesn't pay here:** the Module 2 optimum is a long-run, steady-state budget, while a 13-week
   plan loses the carry-over that decays after week 13 and pays for adstock to build up first. Near the optimum
   the profit curve is also flat. For a short campaign, the steady-state optimum overstates what pays.
