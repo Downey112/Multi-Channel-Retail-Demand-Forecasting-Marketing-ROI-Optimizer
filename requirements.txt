@@ -1,0 +1,10 @@
+numpy>=2.1
+pandas>=2.2
+scipy>=1.14
+statsmodels>=0.14
+psycopg[binary]>=3.2
+sqlalchemy>=2.0
+pyarrow>=17
+matplotlib>=3.9
+pytest>=8.3
+streamlit>=1.40

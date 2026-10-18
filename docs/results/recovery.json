@@ -1,0 +1,324 @@
+{
+  "table": [
+    {
+      "parameter": "lift:Flash_Sale",
+      "true": 9750.0,
+      "estimate": 9839.627552855629,
+      "ci_low": 9369.330835500188,
+      "ci_high": 10309.92427021107,
+      "covered": true
+    },
+    {
+      "parameter": "lift:Bundle_Discount",
+      "true": 6000.0,
+      "estimate": 6252.798125171576,
+      "ci_low": 5776.306525089595,
+      "ci_high": 6729.289725253558,
+      "covered": true
+    },
+    {
+      "parameter": "lift:Loyalty_Cashback",
+      "true": 4000.0,
+      "estimate": 4432.008943422114,
+      "ci_low": 3955.980480915367,
+      "ci_high": 4908.037405928861,
+      "covered": true
+    },
+    {
+      "parameter": "cell:Central:Flash_Sale",
+      "true": 12000.0,
+      "estimate": 12733.017859543132,
+      "ci_low": 11780.230041361036,
+      "ci_high": 13685.805677725228,
+      "covered": true
+    },
+    {
+      "parameter": "cell:Central:Bundle_Discount",
+      "true": 6000.0,
+      "estimate": 6419.737872819254,
+      "ci_low": 5467.302673266929,
+      "ci_high": 7372.17307237158,
+      "covered": true
+    },
+    {
+      "parameter": "cell:Central:Loyalty_Cashback",
+      "true": 3500.0,
+      "estimate": 4382.109859379294,
+      "ci_low": 3430.249369043698,
+      "ci_high": 5333.970349714889,
+      "covered": true
+    },
+    {
+      "parameter": "cell:East_Coast:Flash_Sale",
+      "true": 9000.0,
+      "estimate": 8899.085350345104,
+      "ci_low": 7947.0213417235145,
+      "ci_high": 9851.149358966693,
+      "covered": true
+    },
+    {
+      "parameter": "cell:East_Coast:Bundle_Discount",
+      "true": 6000.0,
+      "estimate": 6153.17295849328,
+      "ci_low": 5208.488948358896,
+      "ci_high": 7097.856968627664,
+      "covered": true
+    },
+    {
+      "parameter": "cell:East_Coast:Loyalty_Cashback",
+      "true": 5500.0,
+      "estimate": 5943.598167147997,
+      "ci_low": 4988.435613009777,
+      "ci_high": 6898.760721286217,
+      "covered": true
+    },
+    {
+      "parameter": "cell:Northern:Flash_Sale",
+      "true": 9000.0,
+      "estimate": 9015.518583431458,
+      "ci_low": 8073.3151414762815,
+      "ci_high": 9957.722025386634,
+      "covered": true
+    },
+    {
+      "parameter": "cell:Northern:Bundle_Discount",
+      "true": 6000.0,
+      "estimate": 5857.982775405742,
+      "ci_low": 4910.175309637401,
+      "ci_high": 6805.790241174083,
+      "covered": true
+    },
+    {
+      "parameter": "cell:Northern:Loyalty_Cashback",
+      "true": 3500.0,
+      "estimate": 2985.7728845608362,
+      "ci_low": 2041.618167223789,
+      "ci_high": 3929.9276018978835,
+      "covered": true
+    },
+    {
+      "parameter": "cell:Southern:Flash_Sale",
+      "true": 9000.0,
+      "estimate": 8710.88841810282,
+      "ci_low": 7765.29571865428,
+      "ci_high": 9656.48111755136,
+      "covered": true
+    },
+    {
+      "parameter": "cell:Southern:Bundle_Discount",
+      "true": 6000.0,
+      "estimate": 6580.298893968029,
+      "ci_low": 5630.7319299176825,
+      "ci_high": 7529.865858018376,
+      "covered": true
+    },
+    {
+      "parameter": "cell:Southern:Loyalty_Cashback",
+      "true": 3500.0,
+      "estimate": 4416.554862600326,
+      "ci_low": 3471.6812333181397,
+      "ci_high": 5361.4284918825115,
+      "covered": true
+    },
+    {
+      "parameter": "adstock_lambda",
+      "true": 0.45,
+      "estimate": 0.4244222977695386,
+      "ci_low": 0.33012677863244666,
+      "ci_high": 0.525364737455556,
+      "covered": true
+    },
+    {
+      "parameter": "c",
+      "true": 1.8,
+      "estimate": 2.0149844301984303,
+      "ci_low": 0.500000000025777,
+      "ci_high": 4.944773772529628,
+      "covered": true
+    },
+    {
+      "parameter": "half_k",
+      "true": 45.0,
+      "estimate": 43.527816241386944,
+      "ci_low": 28.128476535736272,
+      "ci_high": 299.9999999795905,
+      "covered": true
+    },
+    {
+      "parameter": "w_search_sem",
+      "true": 1.3,
+      "estimate": 0.897093894788753,
+      "ci_low": 0.4380295888596009,
+      "ci_high": 1.464199353446398,
+      "covered": true
+    },
+    {
+      "parameter": "w_in_app_push",
+      "true": 0.6,
+      "estimate": 0.4140877980184224,
+      "ci_low": 0.05000000000000001,
+      "ci_high": 1.339948213657526,
+      "covered": true
+    },
+    {
+      "parameter": "w_out_of_home",
+      "true": 0.5,
+      "estimate": 0.46300935359936396,
+      "ci_low": 0.050000000000005644,
+      "ci_high": 0.9888025682281888,
+      "covered": true
+    },
+    {
+      "parameter": "ceiling_rm",
+      "true": 240000.0,
+      "estimate": 249434.78326779263,
+      "ci_low": 137974.41275300947,
+      "ci_high": 1129498.8648781676,
+      "covered": true
+    },
+    {
+      "parameter": "festive_rm",
+      "true": 264000.0,
+      "estimate": 249910.99485103862,
+      "ci_low": 235403.61005525288,
+      "ci_high": 264732.53880870977,
+      "covered": true
+    },
+    {
+      "parameter": "cpi_rm_per_point",
+      "true": -14400.0,
+      "estimate": -15159.083562127664,
+      "ci_low": -17692.0746863646,
+      "ci_high": -12747.57533830098,
+      "covered": true
+    },
+    {
+      "parameter": "inflection_spend_k",
+      "true": 13.399243319290417,
+      "estimate": 18.745994629400318,
+      "ci_low": 0.0,
+      "ci_high": 27.55736585075976,
+      "covered": true
+    },
+    {
+      "parameter": "optimal_spend_k",
+      "true": 35.51630180213504,
+      "estimate": 41.30726536029333,
+      "ci_low": 12.736836325212868,
+      "ci_high": 73.55360634980528,
+      "covered": true
+    }
+  ],
+  "monte_carlo": {
+    "reps": 100,
+    "n_boot": 99,
+    "parameters": [
+      {
+        "parameter": "lift:Flash_Sale",
+        "true": 9750.0,
+        "mean_estimate": 9717.898318326852,
+        "median_estimate": 9728.519304754314,
+        "bias_pct": -0.32924801716048835,
+        "coverage_95": 0.98
+      },
+      {
+        "parameter": "lift:Bundle_Discount",
+        "true": 6000.0,
+        "mean_estimate": 5970.225090767159,
+        "median_estimate": 5976.209864027233,
+        "bias_pct": -0.4962484872140238,
+        "coverage_95": 0.95
+      },
+      {
+        "parameter": "lift:Loyalty_Cashback",
+        "true": 4000.0,
+        "mean_estimate": 3970.1372779830062,
+        "median_estimate": 3967.635929332898,
+        "bias_pct": -0.7465680504248451,
+        "coverage_95": 0.97
+      },
+      {
+        "parameter": "adstock_lambda",
+        "true": 0.45,
+        "mean_estimate": 0.45494620472510916,
+        "median_estimate": 0.46555135637488937,
+        "bias_pct": 1.0991566055798208,
+        "coverage_95": 0.95
+      },
+      {
+        "parameter": "c",
+        "true": 1.8,
+        "mean_estimate": 1.9408956089076996,
+        "median_estimate": 1.7620439717934113,
+        "bias_pct": 7.827533828205535,
+        "coverage_95": 0.95
+      },
+      {
+        "parameter": "half_k",
+        "true": 45.0,
+        "mean_estimate": 86.07662004116206,
+        "median_estimate": 51.59773215635292,
+        "bias_pct": 91.28137786924901,
+        "coverage_95": 0.91
+      },
+      {
+        "parameter": "w_search_sem",
+        "true": 1.3,
+        "mean_estimate": 1.4576965655214078,
+        "median_estimate": 1.3502163382500751,
+        "bias_pct": 12.130505040108286,
+        "coverage_95": 0.88
+      },
+      {
+        "parameter": "w_in_app_push",
+        "true": 0.6,
+        "mean_estimate": 0.7046159771887921,
+        "median_estimate": 0.4931111946950093,
+        "bias_pct": 17.43599619813203,
+        "coverage_95": 0.97
+      },
+      {
+        "parameter": "w_out_of_home",
+        "true": 0.5,
+        "mean_estimate": 0.6410625288562528,
+        "median_estimate": 0.5262582374544307,
+        "bias_pct": 28.212505771250562,
+        "coverage_95": 0.92
+      },
+      {
+        "parameter": "ceiling_rm",
+        "true": 240000.0,
+        "mean_estimate": 481994.49888947135,
+        "median_estimate": 265844.47608582897,
+        "bias_pct": 100.83104120394641,
+        "coverage_95": 0.98
+      },
+      {
+        "parameter": "festive_rm",
+        "true": 264000.0,
+        "mean_estimate": 262708.9138497166,
+        "median_estimate": 263584.48060150736,
+        "bias_pct": -0.4890477841982599,
+        "coverage_95": 0.92
+      },
+      {
+        "parameter": "cpi_rm_per_point",
+        "true": -14400.0,
+        "mean_estimate": -14288.055697961441,
+        "median_estimate": -13973.564231105858,
+        "bias_pct": -0.7773909863788786,
+        "coverage_95": 0.84
+      },
+      {
+        "parameter": "optimal_spend_k",
+        "true": 35.51630180213504,
+        "mean_estimate": 33.13673177101791,
+        "median_estimate": 35.24258633319672,
+        "bias_pct": -6.699937522701438,
+        "coverage_95": 0.94
+      }
+    ],
+    "simple_effect_ci_coverage": 0.9516666666666667,
+    "tukey_family_coverage": 0.96
+  }
+}

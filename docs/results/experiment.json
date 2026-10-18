@@ -1,0 +1,215 @@
+{
+  "n_store_weeks": 1872,
+  "anova": [
+    {
+      "source": "Region (whole plot)",
+      "ss": 75545114858.43004,
+      "df": 3,
+      "f": 3.5620274183978324,
+      "p": 0.07546093431485594,
+      "error_term": "Store(Region)",
+      "partial_eta_sq": 0.6042085579498842
+    },
+    {
+      "source": "Store(Region) (whole-plot error)",
+      "ss": 49486405904.465385,
+      "df": 7,
+      "f": null,
+      "p": null,
+      "error_term": null,
+      "partial_eta_sq": null
+    },
+    {
+      "source": "Promo",
+      "ss": 21905026153.001442,
+      "df": 3.0,
+      "f": 583.0987262671813,
+      "p": 3.060557166944276e-260,
+      "error_term": "Residual",
+      "partial_eta_sq": 0.5081771259469521
+    },
+    {
+      "source": "Region x Promo",
+      "ss": 1253063741.3046036,
+      "df": 9.0,
+      "f": 11.118603045450488,
+      "p": 5.2225270668343366e-17,
+      "error_term": "Residual",
+      "partial_eta_sq": 0.05580795561807163
+    },
+    {
+      "source": "Residual (subplot error)",
+      "ss": 21200074479.347916,
+      "df": 1693.0,
+      "f": null,
+      "p": null,
+      "error_term": null,
+      "partial_eta_sq": null
+    }
+  ],
+  "promo_lift": [
+    {
+      "promo": "Flash_Sale",
+      "lift_rm": 9839.627552855629,
+      "ci_low": 9369.330835500188,
+      "ci_high": 10309.92427021107
+    },
+    {
+      "promo": "Bundle_Discount",
+      "lift_rm": 6252.798125171576,
+      "ci_low": 5776.306525089595,
+      "ci_high": 6729.289725253558
+    },
+    {
+      "promo": "Loyalty_Cashback",
+      "lift_rm": 4432.008943422114,
+      "ci_low": 3955.980480915367,
+      "ci_high": 4908.037405928861
+    }
+  ],
+  "tukey": [
+    {
+      "comparison": "Flash_Sale vs Bundle_Discount",
+      "diff_rm": 3586.8294276840525,
+      "se": 241.1846171347304,
+      "ci_low": 2966.6027378285144,
+      "ci_high": 4207.056117539591,
+      "q": 21.03178421083171,
+      "p_adj": 0.0
+    },
+    {
+      "comparison": "Flash_Sale vs Loyalty_Cashback",
+      "diff_rm": 5407.618609433515,
+      "se": 240.3315074674189,
+      "ci_low": 4789.585763411495,
+      "ci_high": 6025.651455455536,
+      "q": 31.82074484611124,
+      "p_adj": 0.0
+    },
+    {
+      "comparison": "Flash_Sale vs No_Promo",
+      "diff_rm": 9839.627552855629,
+      "se": 239.7801690389274,
+      "ci_low": 9223.012520343258,
+      "ci_high": 10456.242585368,
+      "q": 58.033718091546255,
+      "p_adj": 0.0
+    },
+    {
+      "comparison": "Bundle_Discount vs Loyalty_Cashback",
+      "diff_rm": 1820.7891817494628,
+      "se": 241.49155205634221,
+      "ci_low": 1199.7731827219968,
+      "ci_high": 2441.805180776929,
+      "q": 10.66283575191704,
+      "p_adj": 0.0
+    },
+    {
+      "comparison": "Bundle_Discount vs No_Promo",
+      "diff_rm": 6252.798125171576,
+      "se": 242.93862193160098,
+      "ci_low": 5628.0608632817275,
+      "ci_high": 6877.535387061425,
+      "q": 36.399284070559936,
+      "p_adj": 0.0
+    },
+    {
+      "comparison": "Loyalty_Cashback vs No_Promo",
+      "diff_rm": 4432.008943422114,
+      "se": 242.70249184185153,
+      "ci_low": 3807.878910076442,
+      "ci_high": 5056.138976767785,
+      "q": 25.82506305881111,
+      "p_adj": 0.0
+    }
+  ],
+  "simple_effects": [
+    {
+      "region": "Central",
+      "promo": "Flash_Sale",
+      "lift_rm": 12733.017859543132,
+      "ci_low": 11780.230041361036,
+      "ci_high": 13685.805677725228
+    },
+    {
+      "region": "Central",
+      "promo": "Bundle_Discount",
+      "lift_rm": 6419.737872819254,
+      "ci_low": 5467.302673266929,
+      "ci_high": 7372.17307237158
+    },
+    {
+      "region": "Central",
+      "promo": "Loyalty_Cashback",
+      "lift_rm": 4382.109859379294,
+      "ci_low": 3430.249369043698,
+      "ci_high": 5333.970349714889
+    },
+    {
+      "region": "East_Coast",
+      "promo": "Flash_Sale",
+      "lift_rm": 8899.085350345104,
+      "ci_low": 7947.0213417235145,
+      "ci_high": 9851.149358966693
+    },
+    {
+      "region": "East_Coast",
+      "promo": "Bundle_Discount",
+      "lift_rm": 6153.17295849328,
+      "ci_low": 5208.488948358896,
+      "ci_high": 7097.856968627664
+    },
+    {
+      "region": "East_Coast",
+      "promo": "Loyalty_Cashback",
+      "lift_rm": 5943.598167147997,
+      "ci_low": 4988.435613009777,
+      "ci_high": 6898.760721286217
+    },
+    {
+      "region": "Northern",
+      "promo": "Flash_Sale",
+      "lift_rm": 9015.518583431458,
+      "ci_low": 8073.3151414762815,
+      "ci_high": 9957.722025386634
+    },
+    {
+      "region": "Northern",
+      "promo": "Bundle_Discount",
+      "lift_rm": 5857.982775405742,
+      "ci_low": 4910.175309637401,
+      "ci_high": 6805.790241174083
+    },
+    {
+      "region": "Northern",
+      "promo": "Loyalty_Cashback",
+      "lift_rm": 2985.7728845608362,
+      "ci_low": 2041.618167223789,
+      "ci_high": 3929.9276018978835
+    },
+    {
+      "region": "Southern",
+      "promo": "Flash_Sale",
+      "lift_rm": 8710.88841810282,
+      "ci_low": 7765.29571865428,
+      "ci_high": 9656.48111755136
+    },
+    {
+      "region": "Southern",
+      "promo": "Bundle_Discount",
+      "lift_rm": 6580.298893968029,
+      "ci_low": 5630.7319299176825,
+      "ci_high": 7529.865858018376
+    },
+    {
+      "region": "Southern",
+      "promo": "Loyalty_Cashback",
+      "lift_rm": 4416.554862600326,
+      "ci_low": 3471.6812333181397,
+      "ci_high": 5361.4284918825115
+    }
+  ],
+  "residual_sd_rm": 3538.671222656917,
+  "mean_within_store_lag1_autocorr": 0.013714859127227941,
+  "levene_p": 0.30535752998073007
+}

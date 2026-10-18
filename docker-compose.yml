@@ -1,0 +1,20 @@
+# PostgreSQL for the project. Port 5434 so it can run next to other projects on 5432/5433.
+# The schema is created by scripts/02_load_db.py (not an init script), so every run rebuilds it from sql/.
+services:
+  db:
+    image: postgres:16
+    container_name: multichannel-roi-db
+    environment:
+      POSTGRES_DB: retail_roi
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: roi
+    ports:
+      - "5434:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d retail_roi"]
+      interval: 5s
+      retries: 10
+volumes:
+  pgdata:
